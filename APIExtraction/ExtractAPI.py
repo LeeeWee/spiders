@@ -71,7 +71,7 @@ def get_desciption(class_url):
         class_url: Given class url to read
     
     Returns: 
-        description: Description of specify class'''
+        description: Description of specified class'''
 
     driver = webdriver.PhantomJS()
     driver.get(class_url)
@@ -113,14 +113,13 @@ def save_description(api_url, index_path, output_directory):
         if count % 20 == 0:
             logger.info(str(count) + ' api stored!')
         try:
-            f = open(output_directory + single_class, 'w')
+            f = open(output_directory + single_class, 'w', encoding='utf-8')
             description = get_desciption(classes[single_class])
             f.write(description)
             f.close()
         except selenium.common.exceptions.NoSuchFrameException as e :
             logger.error('selenium.common.exceptions.NoSuchFrameException: ' + single_class)
-        except UnicodeEncodeError as e:
-            logger.error('UnicodeEncodeError: ' + single_class)
+
 
 def get_error_classes(log_file, index_path):
     '''read extraction log file and extract classes with error
@@ -148,23 +147,21 @@ def extract_error_class_description(error_classes, output_directory):
     lenth = len(error_classes)
     if not lenth == 0:
         logger.info(str(lenth) + ' error classes left!')
-        reserved_classes = []
+        reserved_classes = {}
         for single_class in error_classes:
             count += 1
             logger.info('Loading api for ' + single_class)
             if count % 20 == 0:
                 logger.info(str(count) + ' api stored!')
             try:
-                f = open(output_directory + single_class, 'w')
+                f = open(output_directory + single_class, 'w', encoding='utf-8')
                 description = get_desciption(error_classes[single_class])
                 f.write(description)
                 f.close()
             except selenium.common.exceptions.NoSuchFrameException as e :
                 logger.error('selenium.common.exceptions.NoSuchFrameException: ' + single_class)
-                reserved_classes.append(single_class)
-            except UnicodeEncodeError as e:
-                logger.error('UnicodeEncodeError: ' + single_class)
-                reserved_classes.append(single_class)
+                reserved_classes[single_class] = error_classes[single_class]
+        # Extract description for error classes iteratively.
         extract_error_class_description(reserved_classes, output_directory)
 
 
@@ -177,7 +174,7 @@ if __name__ == "__main__":
 '''
 
 if __name__ == '__main__':
-    log_file = 'D:\\Data\\working\\api\\eclipse.jdt_api2.log'
+    log_file = 'D:\\Data\\working\\api\\eclipse.jdt_api3.log'
     index_path =  'D:\\Data\\working\\api\\eclipse.jdt_api.i'
     output_directory = 'D:\\data\\working\\api\\eclipse.jdt.ui\\'
     error_classes = get_error_classes(log_file, index_path)

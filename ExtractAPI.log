@@ -1,0 +1,70 @@
+2017-09-27 11:08:57,784 - INFO - main - Getting error classes...
+2017-09-27 11:08:57,793 - INFO - main - 51 error classes left!
+2017-09-27 11:08:57,794 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.ArchiveSourceLocation
+2017-09-27 11:09:06,778 - INFO - main - Loading api for org.eclipse.jdt.core.dom.ArrayType
+2017-09-27 11:09:15,430 - INFO - main - Loading api for org.eclipse.jdt.core.CompletionRequestorAdapter
+2017-09-27 11:09:26,713 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.DirectorySourceLocation
+2017-09-27 11:09:39,531 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.DOMException
+2017-09-27 11:09:52,832 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.DOMFactory
+2017-09-27 11:10:02,462 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.FindStringsToExternalizeAction
+2017-09-27 11:10:18,092 - INFO - main - Loading api for org.eclipse.ant.ui.launching.IAntLaunchConfigurationConstants
+2017-09-27 11:10:30,049 - INFO - main - Loading api for org.eclipse.jdt.core.IBufferFactory
+2017-09-27 11:10:39,846 - INFO - main - Loading api for org.eclipse.jdt.core.util.IClassFileDisassembler
+2017-09-27 11:10:50,052 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.core.util.IClassFileDisassembler
+2017-09-27 11:10:50,055 - INFO - main - Loading api for org.eclipse.jdt.core.ICodeCompletionRequestor
+2017-09-27 11:11:03,302 - INFO - main - Loading api for org.eclipse.jdt.core.ICodeFormatter
+2017-09-27 11:11:15,215 - INFO - main - Loading api for org.eclipse.jdt.core.ICompletionRequestor
+2017-09-27 11:11:24,945 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMCompilationUnit
+2017-09-27 11:11:28,630 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.core.jdom.IDOMCompilationUnit
+2017-09-27 11:11:28,631 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMFactory
+2017-09-27 11:11:39,991 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMField
+2017-09-27 11:12:05,534 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.core.jdom.IDOMField
+2017-09-27 11:12:05,536 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMImport
+2017-09-27 11:12:13,792 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMInitializer
+2017-09-27 11:12:25,100 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMMember
+2017-09-27 11:12:41,009 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMMethod
+2017-09-27 11:12:41,010 - INFO - main - 20 api stored!
+2017-09-27 11:12:51,304 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMNode
+2017-09-27 11:13:01,847 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMPackage
+2017-09-27 11:13:13,301 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMType
+2017-09-27 11:13:25,135 - INFO - main - Loading api for org.eclipse.jdt.ui.text.java.IJavadocCompletionProcessor
+2017-09-27 11:13:32,433 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.ui.text.java.IJavadocCompletionProcessor
+2017-09-27 11:13:32,434 - INFO - main - Loading api for org.eclipse.jdt.debug.core.IJavaPatternBreakpoint
+2017-09-27 11:13:45,023 - INFO - main - Loading api for org.eclipse.jdt.core.search.IJavaSearchResultCollector
+2017-09-27 11:13:54,403 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.IJavaSourceLocation
+2017-09-27 11:14:07,086 - INFO - main - Loading api for org.eclipse.jdt.launching.IRuntimeContainerComparator
+2017-09-27 11:14:18,299 - INFO - main - Loading api for org.eclipse.jdt.core.search.ISearchPattern
+2017-09-27 11:14:21,931 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.core.search.ISearchPattern
+2017-09-27 11:14:21,932 - INFO - main - Loading api for org.eclipse.jdt.junit.ITestRunListener
+2017-09-27 11:14:40,529 - INFO - main - Loading api for org.eclipse.jdt.core.search.ITypeNameRequestor
+2017-09-27 11:14:50,994 - INFO - main - Loading api for org.eclipse.jdt.core.IWorkingCopy
+2017-09-27 11:15:01,955 - INFO - main - Loading api for org.eclipse.jdt.ui.jarpackager.JarWriter
+2017-09-27 11:15:15,966 - INFO - main - Loading api for org.eclipse.jdt.ui.jarpackager.JarWriter2
+2017-09-27 11:15:26,748 - INFO - main - Loading api for org.eclipse.jdt.ui.JavaElementContentProvider
+2017-09-27 11:15:36,920 - INFO - main - Loading api for org.eclipse.jdt.ui.JavaElementSorter
+2017-09-27 11:15:48,188 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.JavaProjectSourceLocation
+2017-09-27 11:15:59,679 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.JavaSourceLocator
+2017-09-27 11:16:13,026 - INFO - main - Loading api for org.eclipse.jdt.debug.ui.JavaSourceLookupDialog
+2017-09-27 11:16:25,540 - INFO - main - Loading api for org.eclipse.jdt.debug.ui.launchConfigurations.JavaSourceLookupTab
+2017-09-27 11:16:25,541 - INFO - main - 40 api stored!
+2017-09-27 11:16:37,226 - INFO - main - Loading api for org.eclipse.jdt.debug.ui.JavaUISourceLocator
+2017-09-27 11:16:48,250 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.LocalFileStorage
+2017-09-27 11:16:57,067 - INFO - main - Loading api for org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPage
+2017-09-27 11:17:00,796 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPage
+2017-09-27 11:17:00,798 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.OpenExternalJavadocAction
+2017-09-27 11:17:13,376 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.PackageFragmentRootSourceLocation
+2017-09-27 11:17:26,139 - INFO - main - Loading api for org.eclipse.jdt.core.refactoring.descriptors.RenameLocalVariableDescriptor
+2017-09-27 11:17:35,196 - INFO - main - Loading api for org.eclipse.jdt.core.refactoring.descriptors.RenameResourceDescriptor
+2017-09-27 11:17:46,894 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.ShowActionGroup
+2017-09-27 11:18:00,374 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.ShowInNavigatorViewAction
+2017-09-27 11:18:11,017 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.ShowInPackageViewAction
+2017-09-27 11:18:14,719 - ERROR - main - selenium.common.exceptions.NoSuchFrameException: org.eclipse.jdt.ui.actions.ShowInPackageViewAction
+2017-09-27 11:18:14,721 - INFO - main - Loading api for org.eclipse.jdt.launching.sourcelookup.ZipEntryStorage
+2017-09-27 11:18:26,519 - INFO - main - 7 error classes left!
+2017-09-27 11:18:26,520 - INFO - main - Loading api for org.eclipse.jdt.core.util.IClassFileDisassembler
+2017-09-27 11:18:42,220 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMCompilationUnit
+2017-09-27 11:18:50,807 - INFO - main - Loading api for org.eclipse.jdt.core.jdom.IDOMField
+2017-09-27 11:19:03,340 - INFO - main - Loading api for org.eclipse.jdt.ui.text.java.IJavadocCompletionProcessor
+2017-09-27 11:19:13,519 - INFO - main - Loading api for org.eclipse.jdt.core.search.ISearchPattern
+2017-09-27 11:19:23,832 - INFO - main - Loading api for org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPage
+2017-09-27 11:19:34,102 - INFO - main - Loading api for org.eclipse.jdt.ui.actions.ShowInPackageViewAction
